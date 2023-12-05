@@ -38,6 +38,6 @@ def display(text):
     print(text)
 
 if __name__ == "__main__":
-    # audio = record_audio()
-    # display(recognize_speech(audio))
+    audio = record_audio()
+    display(recognize_speech(audio))
     db_search('anas')
